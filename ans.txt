@@ -1,0 +1,16 @@
+depth 2
+in max for s legal move score ((0, 2), (0, 0)) -1000000000
+depth 1
+in min for s legal move score ((1, 2), (1, 0)) 1000000000
+depth 0
+in min for s legal move score ((2, 1), (0, 1)) -1
+depth 0
+in min for s legal move score ((3, 0), (1, 0)) -2
+depth 0
+ oxo
+ xox
+xoxo
+oxox
+
+O WINS
+[[' ', 'o', 'x', 'o'], [' ', 'x', 'o', 'x'], ['x', 'o', 'x', 'o'], ['o', 'x', 'o', 'x']]
